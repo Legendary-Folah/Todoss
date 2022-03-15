@@ -15,7 +15,7 @@ function TodoItem({ todo, theme, completed, onChange, style, deleteTodo}) {
             <div className='checkTodo'>
                 <input type="checkbox" checked={completed} onChange={onChange} />
                 <p style={style}>{todo.text}</p>
-                {/* <FontAwesomeIcon icon={["fal", "delete"]} /> */}
+                <FontAwesomeIcon icon={["fal", "delete"]} />
             </div>
         </div>
     )
